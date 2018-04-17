@@ -1,5 +1,6 @@
 .box {
-    background: linear-gradient(to bottom, red, white);
+    background: radial-gradient(red,orange);
+    border:2px solid grey;
     height: 200px;
     width: 200px;
     bottom: 90%;
@@ -7,37 +8,25 @@
     position: absolute;
     border-radius:50%;
     animation:movingbox 3s infinite;
+    animation-timing-function: ease-in-out
     
 }
 
+.road {
+    width:100%;
+    height:33.5vh;
+    background-color:grey;
+    bottom:0;
+    position:fixed;
+    
+}
 @keyframes movingbox{
-    0%    {bottom: 70%; }
-    50%    {bottom: 20%; }
-    100%    {bottom: 70%;}
+    0%    {bottom: 70%; transform:scale(.7,1); }
+    50%    {bottom: 29%; transform:scale(1,.6); }
+    100%    {bottom: 70%; transform:scale(.7,1); }
 }
 
-.box2 { background:linear-gradient(to bottom,orange,yellow);
-        height: 200px;
-        width: 200px;
-        top: 60%;
-        left: 50%;
-        position: absolute;
-        border-radius:50%;
-        animation:movingbox1 3s infinite;
-        
-}
 
-@keyframes movingbox1{
-    0%  { top: 80%;}
-    5%  {
-    10% { top: 70%;}
-    20% { top: 60%;}
-    30% { top: 50%;}
-    40% { top: 40%;}
-    50% { top: 0%; }
-    60% { top: 40%;}
-    70% { top: 50%;}
-    80% { top: 60%;}
-    90% { top: 70%;}
-    100% {top: 80%; transform:scale(1,.5);}
-} 
+
+
+
