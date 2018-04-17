@@ -2,17 +2,19 @@ div {
     display: inline-block;
 }
 
-
+body {
+    height:100vh;
+    background:linear-gradient(to bottom right,#0099ff,#db4dff, white);
+}
 .box {
     background-color:#0099ff;
-    border: 5px solid #db4dff;
+    border: 3px solid #db4dff;
     height:100px;
     width:100px;
     margin:25px;
     transition-property:all;
-    transition-delay:2s;
-    transition-duration:2s;
-    
+    transition-duration:3s;
+    transition:all .3s ease-in-out;
     
 }
 
@@ -39,5 +41,7 @@ div {
 }
 
 .three_d:hover {
-    transform: perspective(100px) rotateY(30deg);
+    transform: perspective(100px) rotateY(50deg);
 }
+
+
