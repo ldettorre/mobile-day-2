@@ -1,0 +1,100 @@
+body {
+    background-image: url(http://media.safebee.com/assets/images/2015/12/elevator%20buttons.jpg.838x0_q67_crop-smart.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    position: fixed
+    height:100%;
+    width:100%;
+}
+
+.button4 {
+    width:56px;
+    height:56px;
+    border-radius:50%;
+    border: 6px solid #33cc33;
+    opacity:0;
+    position: relative;
+    left:682px;
+    top:351px;
+    position:relative;
+}
+
+.button4:hover{
+    opacity:.9;
+}
+
+.button3 {
+    width:56px;
+    height:56px;
+    border-radius:50%;
+    border: 6px solid #ff9933;
+    opacity:0;
+    position: fixed;
+    left:594px;
+    top:361px;
+}
+
+.button3:hover{
+    opacity:.9;
+}
+
+.button7 {
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    border: 6px solid #cc33ff;
+    opacity:0;
+    position: fixed;
+    left:591px;
+    top:162px;
+}
+
+.button7:hover{
+    opacity:.9;
+}
+
+.button8 {
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    border: 6px solid  #3366ff;
+    opacity:0;
+    position: fixed;
+    left:688px;
+    top:162px;
+}
+
+.button8:hover{
+    opacity:.9;
+}
+
+.button9 {
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    border: 6px solid red;
+    opacity:0;
+    position: fixed;
+    left:591px;
+    top:62px;
+}
+
+.button9:hover {
+    opacity:.9;
+    
+}
+
+.button10 {
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    border: 6px solid #ffff00;
+    opacity:0;
+    position: fixed;
+    left:687px;
+    top:62px;
+}
+
+.button10:hover {
+    opacity:.9;
+}
