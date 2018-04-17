@@ -1,0 +1,43 @@
+div {
+    display: inline-block;
+}
+
+
+.box {
+    background-color:#0099ff;
+    border: 5px solid #db4dff;
+    height:100px;
+    width:100px;
+    margin:25px;
+    transition-property:all;
+    transition-delay:2s;
+    transition-duration:2s;
+    
+    
+}
+
+.rotate:hover{
+    transform: rotate(45deg);
+    
+}
+
+.skew:hover {
+    transform:skew(5deg,20deg);
+}
+
+.scale:hover {
+    transform: scale(2,2);
+    
+}
+
+.multiple:hover {
+    transform: rotate(75deg) skew(40deg,20deg);
+}
+.circle:hover {
+    border-radius:50%;
+    text-align:center;
+}
+
+.three_d:hover {
+    transform: perspective(100px) rotateY(30deg);
+}
